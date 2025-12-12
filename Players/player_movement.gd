@@ -5,7 +5,7 @@ const JUMP_VELOCITY = -400.0
 @onready var anim = $AnimatedSprite2D
 
 func _physics_process(delta: float) -> void:
-	# Gravity
+	# Gravitydsad
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
